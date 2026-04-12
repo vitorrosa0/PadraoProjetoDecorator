@@ -17,7 +17,7 @@ public abstract class HamburguerDecorator implements Hamburguer {
 
     public abstract String getIngrediente();
 
-    public String hamburguer() {
-        return this.hamburguer.hamburguer() + getIngrediente();
+    public String montaHamburguer() {
+        return this.hamburguer.montaHamburguer() + getIngrediente();
     }
 }

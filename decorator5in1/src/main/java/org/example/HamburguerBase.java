@@ -12,7 +12,7 @@ public abstract class HamburguerBase implements Hamburguer {
         this.modoPreparo = modoPreparo;
     }
 
-    public String hamburguer() {
+    public String montaHamburguer() {
         return "Pão: " + pao + ", Carne: " + carne + " - " + modoPreparo.preparar();
     }
 
