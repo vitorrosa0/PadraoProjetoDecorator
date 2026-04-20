@@ -15,7 +15,7 @@ public class Pedido {
     }
 
 
-    public PedidoEstado getPedidoEstado() {
+    public PedidoEstado getEstado() {
         return pedidoEstado;
     }
 
